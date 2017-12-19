@@ -53,7 +53,7 @@ void CMD_GLBListMatches(const char* inputFilename, char* nameToMatch){
 }
 
 
-void CMD_GLBExtractFirstMatch(const char* inputFilename, char* nameToMatch){
+void CMD_GLBExtractMatch(const char* inputFilename, char* nameToMatch){
 	if(inputFilename == NULL){
 		cout << "Not enough arguments." << endl;
 		cout << "Usage: extract raw <glbfile> <assetname>" << endl;

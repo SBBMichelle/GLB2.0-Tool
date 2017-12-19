@@ -38,7 +38,7 @@ int main(int argc, char* argv[]) {
 
 	else if (argv[1] == extract){
 		if(argv[2] == raw){
-		CMD_GLBExtractFirstMatch(argv[3], argv[4]);
+		CMD_GLBExtractMatch(argv[3], argv[4]);
 		}
 	}
 

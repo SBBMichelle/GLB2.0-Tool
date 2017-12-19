@@ -12,7 +12,7 @@ using namespace std;
 
 void CMD_GLBList(const char* inputFilename);
 void CMD_GLBListMatches(const char* inputFilename, char* nameToMatch);
-void CMD_GLBExtractFirstMatch(const char* inputFilename, char* nameToMatch);
+void CMD_GLBExtractMatch(const char* inputFilename, char* nameToMatch);
 
 
 #endif /* GLBCMD_HPP_ */
